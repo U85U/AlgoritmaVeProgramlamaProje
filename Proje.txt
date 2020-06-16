@@ -1,0 +1,30 @@
+Soru 1
+
+•Dinamik  bellek  yöntemiile bir matris oluşturulmalıdır.(15Puan)Matris elemanları kullanıcının 
+girdiği boyutlara  göre 5ile 40000  (Kırk  bin)arasında rastgele  sayılarladoldurulmalı  ve 
+Bubble(Kabarcık) Sort ile matris sıralanmalıdır.(15Puan)
+
+•Oluşturulanmatrisin Transpozesi alınmalı ve matrisin ilk hali ile Transpozeli hali“transpoze.txt”
+ye  yazdırılmalıdır.  İşlem  tamamlandığında  kullanıcıya  “yazdırma  işlemi  tamam!”  uyarısı 
+verilmelidir.(30Puan)
+
+•Transpozesi alınan matris içinde Kaprekarsayısı olanlar “kaprekar.txt” dosyasına yazdırılmalı eğer 
+hiç Kaprekar sayısı yoksa kullanıcıya “Kaprekar Yok“ uyarısı verdirilmelidir.(40Puan)
+
+
+
+Not1:Transpozeörneği:           M=        2   3   1       TM=   2   6   3
+					  6   2   4             3   2   8
+				          3   8   0             1   4   0
+
+
+Not2: Pozitif bir k tam sayısının karesi alınarak bir M tam sayısı ilan edilsin. Eğer bu M tam sayısının 
+sıfırdan büyükherhangi ikiparçasının toplamı ksayısını veriyorsa bu ksayısına Kaprekar Sayısı
+(Kaprekar Number) denir.Örnek Kaprekar sayıları şöyledir;
+
+9 sayısı bir kaprekar sayıdır çünkü   9^2= 81   ve   8 + 1 = 9
+297 sayısı bir kaprekar sayıdır çünkü 297^2= 88209   ve   88 + 209 = 297
+4879 sayısı bir kaprekar sayıdır çünkü 4879^2= 23804641   ve   238 + 4641 = 4879
+
+(!)Öte yandan 100sayısı kaprekar sayı değildir, 100^2= 10000   ve   100 + 00 = 100 olmasına ragmen 
+ikinci parça 0 olduğu için Kabul görmez!
